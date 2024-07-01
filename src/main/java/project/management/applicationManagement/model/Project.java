@@ -2,6 +2,7 @@ package project.management.applicationManagement.model;
 
 import jakarta.persistence.*;
 
+@Entity
 public class Project {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
